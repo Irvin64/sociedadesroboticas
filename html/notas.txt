@@ -1,0 +1,22 @@
+quitar y poner estilos
+<div class="estilo1">
+        <div class="container estilo1 estilo2" id="unico">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div><br>
+
+          <input type="button" value="Poner estilos" onclick="ponerEstilo()"/>
+          <input type="button" value="Quitar estilos" onclick="quitarEstilo()"/>
+        </div>
+      </div>
+OCULTAR Y MOSTRAR IMAGEN
+      <div id="bloques">
+        <input type="button" value="Mostrar imagen" onClick="javascript:mostrar_imagen('imagen')" />
+        <input type="button" value="Ocultar imagen" onClick="javascript:ocultar_imagen('imagen')" />
+      </div>
+      <div id="imagen">
+      </div>
